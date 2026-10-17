@@ -30,6 +30,26 @@ The system classifies bearing faults into 10 distinct classes (Normal, and Ball,
 
 ---
 
+## 📊 Results & Visualizations
+
+The model achieved an exceptional **97.07%** accuracy on the test dataset, demonstrating high precision and recall, particularly on Inner Race (IR) and Outer Race (OR) faults. The Fuzzy logic system successfully mitigates false alarms by considering model confidence and health trends.
+
+### 1. Interactive Bilingual Dashboard
+
+**Main Page (System Overview):**
+![Dashboard Main](figures/dashboard_main.png)
+
+**Bearing Diagnosis & Fuzzy Analysis Page:**
+![Dashboard Analysis](figures/dashboard_analysis.png)
+
+### 2. Training Performance (Loss & Accuracy)
+![Training Curves](figures/train_vs_test_curves.png)
+
+### 3. Confusion Matrix
+![Confusion Matrix](figures/confusion_matrix.png)
+
+---
+
 ## 📂 Repository Structure
 
 ```text
